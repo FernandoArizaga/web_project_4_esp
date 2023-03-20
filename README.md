@@ -1,16 +1,18 @@
 # Proyecto 4: Alrededor de los Estados Unidos
 
-### Descripción general
+### Descripción general    
+* Descripción del proyecto y su funcionalidad
+* Descripción de las técnicas y tecnologías utilizadas. 
+* Enlace al proyecto
+  
+**Descripción del proyecto**    
+  
+El proyecto consiste en una pagina Web donde muestra ciudades y sitios de los Estado Unidos, una página interactiva en la que los usuarios pueden añadir, eliminar o dar "me gusta" a las fotos. Lo hemos diseñado de tal forma que todos los elementos se muestren correctamente en los tamaños de pantalla, en desktop y moviles por lo tanto sea un sitio Web responsivo.  
+  
+**Descripción de las técnicas y tecnologías utilizadas**
 
-* Figma
-* Imágenes
+Utilizamos codigo Html, Css y JavaScript manteniendo siempre una estructura para los nombres de los bloques, elementos , modificadores utilizando la metodolgia BEM.
 
-**Figma**
+**Enlace al proyecto publicado**
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
-
-**Imágenes**
-
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
-
-¡Esperamos que te diviertas con JavaScript!
+(https://fernandoarizaga.github.io/web_project_4_esp/)  

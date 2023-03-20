@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alrededor de los EE.UU.</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/header.png" alt="Alrededor de los EE.UU.">
+    </header> 
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="./images/jacques-cousteau.jpg" alt="Foto de Jacques Cousteau">
+        <div class="profile__description">
+          <div class="profile__info">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button class="profile__edit-button">
+              <img class="profile__edit-button-imagen" src="./images/edit-button.png" alt="Botón editar perfil">  
+            </button> 
+          </div>  
+          <h2 class="profile__about">Explorador</h2>
+        </div>
+        <button class="profile__add-button">
+          <img class="profile__add-button-imagen" src="./images/add-button.png" alt="Botón añadir imagen">
+        </button>
+      </section>
+      <div class="popup">
+        <form class="popup__container" method="get">
+          <h3 class="popup__title">Edit profile</h3>
+          <input
+            class="popup__field popup__field_name"
+            id="Nombre"
+            type="text"
+            placeholder="Escribe tu nombre"
+          />
+          <input
+            class="popup__field popup__field_about"
+            id="Acerca"
+            type="text"
+            placeholder="Acerca de mí"
+          />
+          <button class="popup__save-button">Guardar</button>
+        </form>
+        <img class="popup__close-button" src="./images/close-icon.png" alt="Boton Cerrar">
+      </div>
+      <ul class="elements">
+        <li class="element">
+          <img class="element__image" src="./images/valle-de-yosemite.jpg" alt="Foto de una ciudad a la orilla del mar" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Valle de Yosemite</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/lago-louise.png" alt="Foto de una ciudad y al fondo el mar" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Lago Louise</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+          </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/montañas-calvas.png" alt="Foto de una ciudad en la que vemos la cupula deuna iglesia" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Montañas Calvas</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+        </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/latemar.png" alt="Foto de una ciudad con su rio y un pueste sobe el mismo" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Latemar</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+        </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/vanoise.png" alt="Foto de un hermoso campo" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Vanoise Nationa...</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+        </div>
+        </li>
+        <li class="element">
+          <img class="element__image" src="./images/lago-di-braies.png" alt="Foto de un parque de una ciudad" data-type="auto">
+          <div class="element__description">
+            <h4 class="element__title">Lago di Braies</h4>
+            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
+          </div>
+        </li>
+      </ul>
+      <footer class="footer">
+        <p class="footer__copyright">&copy;2023 Alrededor de los EEUU</p>
+      </footer>
+    </main>  
+  </div>  
+  <script type="module" src="./scripts/script.js"></script>  
+</body>
+</html>

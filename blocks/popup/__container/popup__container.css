@@ -1,0 +1,25 @@
+.popup__container {
+  background-color: white;
+  color: black;
+  width: 430px;
+  height: 330px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 34px 36px 36px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .popup__container {
+    width: 282px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .popup__container {
+    width: 282px;
+    height: 322px;
+    padding: 22px 25px;
+  }
+}
