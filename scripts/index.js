@@ -2,7 +2,7 @@
 const editButton = document.querySelector(".profile__edit-button");
 const closeButton = document.querySelector(".popup__close-button");
 const popupProfile = document.querySelector("#popup__profile");
-let profileName = document.querySelector(".profile__name");
+const profileName = document.querySelector(".profile__name");
 let profileAbout = document.querySelector(".profile__about");
 let inputName = document.querySelector(".popup__field_name");
 let inputAbout = document.querySelector(".popup__field_about");
@@ -43,7 +43,7 @@ const initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/WEB_sprint_5/ES/latemar.jpg"
   },
   {
-    name: "Parque Nacional de Vanoise",
+    name: "Parque Nacional de la Vanoise",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/WEB_sprint_5/ES/vanoise.jpg"
   },
   {
