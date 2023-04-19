@@ -1,4 +1,4 @@
-# Proyecto 4: Alrededor de los Estados Unidos
+# Proyecto 5: Alrededor de los Estados Unidos
 
 ### Descripción general    
 * Descripción del proyecto y su funcionalidad
@@ -7,7 +7,7 @@
   
 **Descripción del proyecto**    
   
-El proyecto consiste en una pagina Web donde muestra ciudades y sitios de los Estado Unidos, una página interactiva en la que los usuarios pueden añadir, eliminar o dar "me gusta" a las fotos. Lo hemos diseñado de tal forma que todos los elementos se muestren correctamente en los tamaños de pantalla, en desktop y moviles por lo tanto sea un sitio Web responsivo.  
+El proyecto consiste en una pagina Web donde muestra ciudades y sitios de los Estado Unidos, una página interactiva en la que los usuarios pueden añadir, eliminar, dar "me gusta" o ampliar con un click las fotos. Lo hemos diseñado de tal forma que todos los elementos se muestren correctamente en los tamaños de pantalla, en desktop y moviles por lo tanto sea un sitio Web responsivo.  
   
 **Descripción de las técnicas y tecnologías utilizadas**
 

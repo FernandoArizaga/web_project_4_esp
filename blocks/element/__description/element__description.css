@@ -1,13 +1,10 @@
 .element__description {
-    background-color: #fff;
-    padding: 0 25px 0 31px;
-    display: flex;
-    align-items: center;
-    height: 79px;
-    justify-content: space-between;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    border-bottom-right-radius: 4%;
-    border-bottom-left-radius: 4%;
-  }
+  background-color: #fff;
+  padding: 0 25px 0 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 79px;
+  border-bottom-right-radius: 4%;
+  border-bottom-left-radius: 4%;
+}

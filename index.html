@@ -27,18 +27,18 @@
           <img class="profile__add-button-imagen" src="./images/add-button.png" alt="Botón añadir imagen">
         </button>
       </section>
-      <div class="popup">
+      <div class="popup" id="popup__profile">
         <form class="popup__container" method="get">
           <h3 class="popup__title">Edit profile</h3>
           <input
             class="popup__field popup__field_name"
-            id="Nombre"
+            id="nombre"
             type="text"
             placeholder="Escribe tu nombre"
           />
           <input
             class="popup__field popup__field_about"
-            id="Acerca"
+            id="acerca"
             type="text"
             placeholder="Acerca de mí"
           />
@@ -46,55 +46,50 @@
         </form>
         <img class="popup__close-button" src="./images/close-icon.png" alt="Boton Cerrar">
       </div>
+      <div class="popup" id="popup__element">
+        <form class="popup__container" method="get">
+          <h3 class="popup__title">Nuevo Lugar</h3>
+          <input
+            class="popup__field popup__field_title"
+            id="titulo"
+            type="text"
+            placeholder="Titulo"
+          />
+          <input
+            class="popup__field popup__field_link"
+            id="enlace"
+            type="text"
+            placeholder="Enlace a la imagen"
+          />
+          <button class="popup__make-button">Crear</button>
+        </form>
+        <img class="popup__close-button-element" src="./images/close-icon.png" alt="Boton Cerrar">
+      </div>
+      <div class="modal" id="modal" >
+        <div class="popup" id="popup__image">
+          <form class="popup__container-image" method="get">
+            <img class="popup__image" src="./images/close-icon.png" alt="Imagen ampliada" data-type="auto">
+          </form>
+          <img class="popup__close-button-image" src="./images/close-icon.png" alt="Boton Cerrar">
+        </div>
+      </div>
       <ul class="elements">
-        <li class="element">
-          <img class="element__image" src="./images/valle-de-yosemite.jpg" alt="Foto de una ciudad a la orilla del mar" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Valle de Yosemite</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-          </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/lago-louise.png" alt="Foto de una ciudad y al fondo el mar" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Lago Louise</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-          </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/montañas-calvas.png" alt="Foto de una ciudad en la que vemos la cupula deuna iglesia" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Montañas Calvas</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-        </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/latemar.png" alt="Foto de una ciudad con su rio y un pueste sobe el mismo" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Latemar</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-        </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/vanoise.png" alt="Foto de un hermoso campo" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Vanoise Nationa...</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-        </div>
-        </li>
-        <li class="element">
-          <img class="element__image" src="./images/lago-di-braies.png" alt="Foto de un parque de una ciudad" data-type="auto">
-          <div class="element__description">
-            <h4 class="element__title">Lago di Braies</h4>
-            <img class="element__like-button" src="images/like-button.png" alt="Me gusta">
-          </div>
-        </li>
       </ul>
       <footer class="footer">
         <p class="footer__copyright">&copy;2023 Alrededor de los EEUU</p>
       </footer>
     </main>  
   </div>  
+  <template>
+      <li class="element">
+        <img class="element__image" src="" alt="" data-type="auto">
+        <img class="element__trash-button" src="./images/trash.png" alt="Borrar">
+        <div class="element__description">
+          <h4 class="element__title"></h4>
+          <img class="element__like-button" src="./images/like-button.png" alt="Me gusta">
+        </div>
+      </li>
+  </template>
   <script type="module" src="./scripts/script.js"></script>  
 </body>
 </html>

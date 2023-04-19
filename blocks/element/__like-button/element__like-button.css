@@ -1,16 +1,18 @@
 .element__like-button {
-    border: none;
-    background-color: inherit;
-    cursor: pointer;
-    width: 21px;
-    height: 19px;
-  }
+  background-image: url('/images/like-button.png');
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  width: 21px;
+  height: 19px;
+}
   
-  .element__like-button:hover {
-    opacity: 0.5;
-    transition: opacity 0.2s linear;
-  }
+.element__like-button-active {
+  background-image: url('/images/like-button-active.png');
+}
+
+.element__like-button:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
+}
   
-  .element__like-button:active {
-    background-image: url(/images/like-button-active.png);
-  }
