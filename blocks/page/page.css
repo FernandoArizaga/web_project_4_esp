@@ -11,12 +11,6 @@
   overflow: hidden;
 }
 
-@font-face {
-  font-family: "Inter";
-  src: url("/styles/fonts/static/Inter-Regular.ttf");
-  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .page {
       max-width: 1279px;
