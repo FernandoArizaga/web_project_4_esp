@@ -4,26 +4,26 @@ const closeButton = document.querySelector(".popup__close-button");
 const popupProfile = document.querySelector("#popup__profile");
 const profileName = document.querySelector(".profile__name");
 const profileAbout = document.querySelector(".profile__about");
-let inputName = document.querySelector(".popup__field_name");
-let inputAbout = document.querySelector(".popup__field_about");
+const inputName = document.querySelector(".popup__field_name");
+const inputAbout = document.querySelector(".popup__field_about");
 const submitButton = document.querySelector(".popup__save-button");
 
 const templateCardElements = document.querySelector("template").content;
 const areaElements = document.querySelector(".elements");
 const popupElement = document.querySelector("#popup__element");
-let elementTitle = document.querySelector(".element__title");
-let elementLink = document.querySelector(".element__link");
-let inputTitle = document.querySelector(".popup__field_title");
-let inputLink = document.querySelector(".popup__field_link");
+const elementTitle = document.querySelector(".element__title");
+const elementLink = document.querySelector(".element__link");
+const inputTitle = document.querySelector(".popup__field_title");
+const inputLink = document.querySelector(".popup__field_link");
 const addButton = document.querySelector(".profile__add-button");
 const closeButtonElement = document.querySelector(".popup__close-button-element");
 const createButton = document.querySelector(".popup__make-button");
 
 const popupImage = document.querySelector("#popup__image");
 const closeButtonImage = document.querySelector(".popup__close-button-image");
-let imageLink = document.querySelector(".popup__image");
+const imageLink = document.querySelector(".popup__image");
 
-let modal = document.getElementById("modal");
+const modal = document.getElementById("modal");
 
 const initialCards = [
   {
